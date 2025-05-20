@@ -209,6 +209,4 @@ function Infinity() {
     </div>
   );
 }
-
-export default Infinity;
 export default Infinity;
