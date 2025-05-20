@@ -65,7 +65,7 @@ function Infinity() {
     }, 3000);
   };
 
-  if (!isLoggedIn) {
+  if (isLoggedIn) {
     return (
       <div className="App">
         <header className="header">
