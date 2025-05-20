@@ -9,5 +9,14 @@
         }
       ]
     }
+  ] 
+  "builds": [
+    {
+      "src": "vite-project/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
   ]
 }
