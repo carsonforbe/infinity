@@ -15,7 +15,7 @@ function Infinity() {
     
     const message = `New Gas Cylinder Order:\n\nName: ${name}\nPhone: ${phone}\nType ${type}\nAddress: ${address}\nQuantity: ${quantity}\nTotal: Ksh ${1250 * quantity}`;
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/254115991191?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/254101541820?text=${encodedMessage}`;
     
     window.open(whatsappUrl, '_blank');
     setOrderSent(true);
